@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MP3 Gue - Chainshaw</title>
+<style>
+  body { background: #111; color: white; font-family: sans-serif; text-align: center; padding: 40px 20px; }
+  .card { background: #1e1e1e; padding: 30px; border-radius: 20px; max-width: 400px; margin: auto; }
+  h1 { font-size: 22px; margin-bottom: 5px; }
+  p { color: #aaa; font-size: 14px; }
+  audio { width: 100%; margin-top: 20px; filter: invert(1); }
+  .btn { display: inline-block; margin-top: 15px; background: #ff4757; color: white; padding: 10px 20px; border-radius: 10px; text-decoration: none; font-weight: bold; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>🎵 Lagu Gue</h1>
+    <p>by mp3-gue-chainshaw</p>
+
+    <!-- INI PEMUTARNYA -->
+    <audio controls>
+      <source src="https://raw.githubusercontent.com/mp3-gue-chainshaw/musik/main/lagu.mp3" type="audio/mpeg">
+      Browser lu nggak support audio.
+    </audio>
+
+    <br>
+    <a class="btn" href="https://raw.githubusercontent.com/mp3-gue-chainshaw/musik/main/lagu.mp3" download>Download MP3</a>
+  </div>
+</body>
+</html>
